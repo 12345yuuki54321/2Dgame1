@@ -34,7 +34,7 @@ Object_date od;
         inputAxis.y = Input.GetAxisRaw("Vertical");
         setAnim(inputAxis);
 
-        if (Input.GetKeyDown(KeyCode.T) && contact){
+        if (Input.GetKeyDown(KeyCode.E) && contact){
             name.text = od.name;
             if(takara && od.talk_count == 0 && od.name == "敵"){
                 od.talk_count = 1;
