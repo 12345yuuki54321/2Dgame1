@@ -20,6 +20,6 @@ public class Object_date: MonoBehaviour
     void Update()
     {
         sr.sprite = skin[talk_count];
-
+        
     }
 }

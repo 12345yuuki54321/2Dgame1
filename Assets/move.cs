@@ -36,7 +36,7 @@ Object_date od;
 
         if (Input.GetKeyDown(KeyCode.T) && contact){
             name.text = od.name;
-            if(takara && od.talk_count == 0 && od.name == "enemy"){
+            if(takara && od.talk_count == 0 && od.name == "敵"){
                 od.talk_count = 1;
             }
             if(od.name == "goal"){
