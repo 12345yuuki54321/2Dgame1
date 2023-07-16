@@ -53,8 +53,9 @@ Object_date1 od;
             }
              else if(!contact){
         panel.SetActive(false);
-        if(od != null && od.name == "敵" && od.talk_count == 1){
-                        od.talk_count = 2;
+        if(od != null && od.name == "扉" && od.talk_count == 1){
+             tr.Translate(-1, 0, 0);
+             od.talk_count = 2;
             }
         }
 

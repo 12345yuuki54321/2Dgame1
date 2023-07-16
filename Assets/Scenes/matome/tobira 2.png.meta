@@ -110,7 +110,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
+        width: 32
         height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -129,9 +129,9 @@ TextureImporter:
       name: tobira 2_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
-        width: 64
+        width: 32
         height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,9 +150,9 @@ TextureImporter:
       name: tobira 2_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 0
-        width: 64
+        width: 32
         height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,6 +163,69 @@ TextureImporter:
       bones: []
       spriteID: 409db40d23470422a86b49412a268465
       internalID: 1110709078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tobira 2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7053393ab2594ba499bd9e1b8cbce4c
+      internalID: 1076853542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tobira 2_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79c62df2fb4d426380e9579b5bf5245
+      internalID: -547160083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tobira 2_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9a182bbce994a889837880426472cc
+      internalID: -1746786785
       vertices: []
       indices: 
       edges: []
@@ -181,6 +244,9 @@ TextureImporter:
       tobira 2_0: -1532226530
       tobira 2_1: -1986904349
       tobira 2_2: 1110709078
+      tobira 2_3: 1076853542
+      tobira 2_4: -547160083
+      tobira 2_5: -1746786785
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
