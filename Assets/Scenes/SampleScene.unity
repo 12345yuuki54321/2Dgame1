@@ -249,7 +249,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &145150246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36746,7 +36746,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.83}
+    oldSize: {x: 0.32, y: 0.83}
     newSize: {x: 0.64, y: 0.83}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -36795,7 +36795,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 200
+  m_SortingOrder: 199
   m_Sprite: {fileID: -1532226530, guid: fd73de8156bdd400aa326b274242b452, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -36863,7 +36863,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1 &983046240
 GameObject:
   m_ObjectHideFlags: 0
@@ -82896,6 +82896,7 @@ GameObject:
   - component: {fileID: 1944197185}
   - component: {fileID: 1944197187}
   - component: {fileID: 1944197186}
+  - component: {fileID: 1944197189}
   - component: {fileID: 1944197188}
   m_Layer: 0
   m_Name: "\u4E3B\u4EBA\u516C"
@@ -83070,6 +83071,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &1944197189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944197181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9615a0e25f8342ceaa43abc21076715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  contact: 0
+  panel: {fileID: 1303787399}
+  name: {fileID: 539990406}
+  mesege: {fileID: 199919461}
+  key: 0
 --- !u!1 &1998795571
 GameObject:
   m_ObjectHideFlags: 0
